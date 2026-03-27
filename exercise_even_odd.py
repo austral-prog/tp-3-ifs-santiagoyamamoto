@@ -13,3 +13,10 @@ def even_odd():
         El numero 7 es impar
     """
     pass
+
+    num= int(input())
+    if num % 2 == 0:
+        print(f"El numero {num} es par")
+    else:
+        print(f"El numero {num} es impar")
+
